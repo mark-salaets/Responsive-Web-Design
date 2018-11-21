@@ -312,11 +312,11 @@ footer h1
       min-width: 200px;
       margin: auto;
   }
-
+/*
   aside {
     display: none;
   }
-
+*/
   footer {
     align-items: flex-start;
     justify-content: center;
@@ -334,9 +334,20 @@ footer h1
     justify-content: center;
   }
 
+  section {
+    flex-direction: column;
+  }
+
   article
   {
       margin-right: 0px;
+  }
+
+  #fleche_bulle
+  {
+      transform: rotate(90deg);
+      top: -12px;
+      left: 20px;
   }
 
   #listes_amis
