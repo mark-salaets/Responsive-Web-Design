@@ -309,6 +309,7 @@ footer h1
   #bloc_page
   {
       width: auto;
+      min-width: 200px;
       margin: auto;
   }
 
